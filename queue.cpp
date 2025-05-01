@@ -1,4 +1,5 @@
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 class Queue {
@@ -49,7 +50,6 @@ public:
         return arr[front];
     }
 };
-
 
 int main() {
     Queue qu(5);
